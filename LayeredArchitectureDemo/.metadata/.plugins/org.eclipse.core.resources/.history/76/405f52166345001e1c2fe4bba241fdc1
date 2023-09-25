@@ -1,0 +1,15 @@
+package in.mindcraft.dao;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import in.mindcraft.pojos.Laptop;
+import in.mindcraft.utils.DButils;
+
+public class LaptopDao {
+private Connection cn;
+	public void addLaptop(Laptop laptop) throws SQLException {
+		cn=DButils.openConnection();
+		
+	}
+}

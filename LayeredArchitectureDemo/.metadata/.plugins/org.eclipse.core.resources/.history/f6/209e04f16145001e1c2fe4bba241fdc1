@@ -1,0 +1,20 @@
+package in.mindcraft.controllers;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.stereotype.Controller;
+
+import in.mindcraft.pojos.Laptop;
+
+@Controller
+public class LaptopController {
+
+	public void addLaptop(HttpServletRequest request,HttpServletResponse response) {
+		int lid = Integer.parseInt(request.getParameter("lid"));
+		String make = request.getParameter("make");
+		int cost = Integer.parseInt(request.getParameter("cost"));
+		Laptop laptop = new Laptop(101,"ASUS",75000);
+		
+	}
+}

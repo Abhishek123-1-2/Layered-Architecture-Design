@@ -1,0 +1,6 @@
+package in.mindcraft.controllers;
+
+@Controller
+public class LaptopController {
+
+}

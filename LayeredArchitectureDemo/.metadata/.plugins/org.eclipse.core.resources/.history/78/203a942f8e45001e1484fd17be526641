@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="insertLap">
+<label>Enter Laptop Id</label>
+<input type="text" name="lid">
+<label>Enter Laptop Make</label>
+<input type="text" name="make">
+<label>Enter Laptop Cost</label>
+<input type="text" name="cost">
+<button type="submit" onclick="form.action='add';">Add</button>
+<button type="submit" onclick="form.action='show';">Show</button>
+</form>
+</body>
+</html>

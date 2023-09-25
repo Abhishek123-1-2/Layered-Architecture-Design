@@ -1,0 +1,15 @@
+127.0.0.1 - - [29/Aug/2023:00:04:25 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:04:26 +0530] "GET /SpringMVC/ HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:04:29 +0530] "GET /SpringMVC/show?lid=&make=&cost= HTTP/1.1" 500 2457
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:04:44 +0530] "GET /SpringMVC/show?lid=&make=&cost= HTTP/1.1" 500 2457
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:05:29 +0530] "GET /SpringMVC/add?lid=234&make=Toshiba&cost=34000 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:05:29 +0530] "GET /SpringMVC/created.jsp HTTP/1.1" 200 226
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:05:34 +0530] "GET /SpringMVC/show?lid=234&make=Toshiba&cost=34000 HTTP/1.1" 500 2457
+127.0.0.1 - - [29/Aug/2023:00:08:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:08:04 +0530] "GET /SpringMVC/ HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:00:08:06 +0530] "GET /SpringMVC/show?lid=&make=&cost= HTTP/1.1" 500 2457
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:13:26:41 +0530] "GET /SpringMVC/ HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:13:26:44 +0530] "GET /SpringMVC/show?lid=&make=&cost= HTTP/1.1" 500 2457
+127.0.0.1 - - [29/Aug/2023:13:29:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:13:29:04 +0530] "GET /SpringMVC/ HTTP/1.1" 200 499
+0:0:0:0:0:0:0:1 - - [29/Aug/2023:13:29:08 +0530] "GET /SpringMVC/show?lid=&make=&cost= HTTP/1.1" 200 1110
